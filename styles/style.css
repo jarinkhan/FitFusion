@@ -381,3 +381,7 @@ form {
     height: 300px;
     filter: brightness(80%);
 }
+
+.team-content img {
+    border-radius: 10px;
+}
