@@ -279,3 +279,105 @@ body {
     color: gray;
 }
 
+
+.unique-section {
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    background-color: rgba(98, 85, 85, 0.65);
+    border-radius: 20px;
+    display: flex;
+}
+
+.clr3 {
+    background-color: rgba(80, 79, 79, 0.65);
+}
+
+.bmi-calcu{
+    text-align: center;
+    
+    margin-top: 30px;
+    
+    color: white;
+    
+   
+    
+    display: flex;
+    
+}
+
+.align-r {
+    background-color: rgba(80, 79, 79, 0.65);
+    display: flex;
+    align-items: flex-start;
+    color: rgb(213, 207, 207);
+    width: 300px;
+    
+    
+    
+    
+}
+
+.align-l {
+    margin-top: 10px;
+    background-color: rgba(80, 79, 79, 0.65);
+    display: flex;
+    align-items: flex-start;
+    color: rgb(213, 207, 207);
+    width: 300px;
+    text-align: right;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.team-members {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.gym {
+    position: absolute;
+    margin: 0;
+    background-color: #666;
+    bottom: 10%;
+    left: 20%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.team-grid {
+    position: relative;
+
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.team-members img {
+    width: 100%;
+    height: 300px;
+    filter: brightness(80%);
+}
