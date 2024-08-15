@@ -46,6 +46,9 @@ body {
 }
 
 
+
+
+
 .title {
     
     
@@ -161,10 +164,11 @@ body {
     display: flex;
     justify-content: center;
     padding: 20px;
+    border-radius: 8px;
 }
 
 .rate {
-    margin: 0 20px;
+    margin: 0 190px;
     text-align: center;
 }
 
@@ -185,7 +189,8 @@ body {
 }
 
 .clr {
-    background-color: #2f2e2e;
+    
+    background-color: rgba(224, 224, 240, 0)
 }
 
 
@@ -253,6 +258,7 @@ body {
     margin-top: 10px;
     padding: 10px 10px;
     width: 90px;
+    
 }
 
 .push-section h2 {
@@ -295,7 +301,7 @@ body {
 
 .bmi-calcu{
     text-align: center;
-    
+    font-size: 18px;
     margin-top: 30px;
     
     color: white;
@@ -318,6 +324,38 @@ body {
     
 }
 
+
+.bmi-cal {
+    padding: 30px 30px;
+    
+    text-align: center;
+}
+
+
+.bmi-cal h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bmi-cal form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.bmi-cal input, .bmi-cal button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #f2eaea;
+    border: 1px solid #ccc;
+}
+
+
+
 .align-l {
     margin-top: 10px;
     background-color: rgba(80, 79, 79, 0.65);
@@ -325,54 +363,62 @@ body {
     align-items: flex-start;
     color: rgb(213, 207, 207);
     width: 300px;
-    text-align: right;
+    text-align: center;
 
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 8px;
-    text-align: center;
+.adjust-size {
+    width:95%;
 }
 
 .team-members {
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
 
 }
 
 .gym {
     position: absolute;
     margin: 0;
-    background-color: #666;
+    background-color: #312e2e;
     bottom: 10%;
     left: 20%;
     color: white;
     font-size: 20px;
     font-weight: bold;
     transform: translate(-50%, -50%);
+
 }
+
+
 
 .team-grid {
     position: relative;
+    background-color: #312e2e;
+    
+    
 
 }
 
 .row1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 1rem 0;
+   
     gap: 1rem;
 
 }
 
 .row2 {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 1rem 0;
+    
     gap: 1rem;
 }
 
@@ -380,8 +426,102 @@ form {
     width: 100%;
     height: 300px;
     filter: brightness(80%);
+    
+    
+    
 }
 
 .team-content img {
-    border-radius: 10px;
+    border-radius: 30px;
+    
+    
+    
+    
+    
 }
+
+.team-content {
+    text-align: center;
+    padding: 30px 30px;
+    background-color: #312e2e;
+    
+    
+    
+    
+   
+}
+
+.clr4 {
+    background-color: #312e2e;
+    border-radius: 20px;
+    margin: 30px 30px;
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-bar,
+    .banner,
+    .change-section {
+        flex-direction: column;
+    }
+
+    .team-members {
+        flex-direction: column;
+    }
+} 
+
+.show {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.table-data th, .table-data td {
+    padding: 12px 15px;
+    margin: 20px 30px;
+    border: 1px solid darkgoldenrod;
+}
+.table-data th {
+    background-color: #2f2e2e;
+    font-weight: bold;
+}
+
+.table-data td {
+    background-color: #2f2e2e;
+}
+
+.table-data {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+
+.r1 {
+    display: flex;
+    width: 100%;
+}
+
+
+.r2 {
+ display: flex;
+ width: 100%;
+}
+
+.r3 {
+    display: inline;
+    
+    background-size: cover;
+}
+
