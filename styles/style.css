@@ -202,7 +202,7 @@ body {
 }
 
 
-.change-section p {
+.change-section p, .unique-section p, .bmi p {
     margin-top: 10px;
     color: #666;
 }
@@ -525,3 +525,14 @@ body {
     background-size: cover;
 }
 
+
+.bmi h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.bmi p {
+    text-align: center;
+}
