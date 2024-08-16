@@ -168,8 +168,10 @@ body {
 }
 
 .rate {
-    margin: 0 190px;
-    text-align: center;
+    margin: 40px;
+    position: relative;
+    max-width: 200px;
+    z-index: 1;
 }
 
 .rate h2 {
@@ -182,6 +184,7 @@ body {
     font-size: 16px;
     color: #666;
 }
+
 
 
 .banner {
@@ -293,6 +296,8 @@ body {
     background-color: rgba(98, 85, 85, 0.65);
     border-radius: 20px;
     display: flex;
+    margin-top: 40px;
+    
 }
 
 .clr3 {
@@ -533,6 +538,65 @@ body {
 }
 
 
+
+
 .bmi p {
     text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+.footer-content h4 {
+    text-align: left;
+}
+.footer-content p {
+    float: left;
+    margin-bottom: 50px;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ft a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+}
+
+.ft h4 {
+    font-weight: 18px;
+}
+
+.ft {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    color: gray;
+   
+}
+
+
+.unique-content h3 p{
+    margin-top: 10px;
+}
+
+.unique-img {
+    margin-top: 10px;
+    background-color: #2f2e2e;
+    border: 3px solid #312e2e;
+    margin-bottom: 20px;
+    
 }
